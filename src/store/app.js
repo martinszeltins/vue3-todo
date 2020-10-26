@@ -1,6 +1,4 @@
-import { createStore } from 'vuex'
- 
-export default createStore({
+export default {
 
 namespaced: true,
 
@@ -18,4 +16,4 @@ namespaced: true,
           alert('action doing something..')
       },
   },
-})
+}
